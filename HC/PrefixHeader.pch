@@ -1,0 +1,267 @@
+//
+//  PrefixHeader.pch
+//  TextDemo
+//
+//  Created by 郭龙波 on 2019/6/12.
+//  Copyright © 2019 李豪. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+/**
+ *  设备的高
+ */
+#define DEVICE_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+/**
+ *  设备的寛
+ */
+#define DEVICE_WIDTH ([UIScreen mainScreen].bounds.size.width)
+///状态高度
+#define kStatusBarHeight [UIDevice statusBarHeight]
+///导航高度
+#define kNavBarHeight 44.0
+///TabBar高度
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+///状态+导航高度
+#define kTopHeight (kStatusBarHeight + kNavBarHeight)
+///底部安全距离
+#define KBottomHeight [UIDevice bottomSafeHeight]
+/** 弱引用 */
+#ifndef weakify
+    #if DEBUG
+        #if __has_feature(objc_arc)
+        #define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+        #else
+        #define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+        #endif
+    #else
+        #if __has_feature(objc_arc)
+        #define weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+        #else
+        #define weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+        #endif
+    #endif
+#endif
+
+#ifndef strongify
+    #if DEBUG
+        #if __has_feature(objc_arc)
+        #define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+        #else
+        #define strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+        #endif
+    #else
+        #if __has_feature(objc_arc)
+        #define strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+        #else
+        #define strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+        #endif
+    #endif
+#endif
+
+#define Ratio(w) ([UIScreen mainScreen].bounds.size.width/375)*w
+#define RatioH(h) ([UIScreen mainScreen].bounds.size.height/667)*h
+
+#define getBankLogo(string) [NSString stringWithFormat:@"bank_%@",[string lowercaseString]]
+
+#define getAfterFour(string) [string substringFromIndex:string.length-4]
+
+#define isCardName(string) string.length > 4 ? [string stringByReplacingOccurrencesOfString:@"中国" withString:@""] : string
+
+#define AppendString(string,printStr) [string stringByAppendingFormat:@"%@",printStr];
+
+#define isBlankString(String) [NSString isBlankString:[NSString stringWithFormat:@"%@",String]] ? @"-" : [NSString stringWithFormat:@"%@",String]
+
+
+/*
+    项目接口地址
+    商城测试 @"http://shopcs.cqhl006.cn"
+    测试 @"http://192.168.31.165:8080"
+    正式 @"http://api.zhifu168.com"
+*/
+
+#define ApiUrl @"http://api.zhifu168.com"
+
+//#define ApiUrl @"http://192.168.31.165:8080"
+
+//品牌ID 控制整个APP的品牌
+#define brandId @"5"
+
+///高德的key
+#define AMaPAppKey   @"8a4899fcace49e5d367fd671ff965c8e"
+
+///字体主题色
+//#define FontThemeColor [UIColor colorWithHexString:@"#F7CF9E"]
+#define FontThemeColor [UIColor whiteColor]
+#define MainColor [UIColor colorWithHexString:@"#1A1A4B"]
+#import "IOZJk_9Controller.h"
+
+//框架
+#import "QIIoxag_l4.h"
+#import "BlocksKit+UIKit.h"
+#import "Masonry.h"
+#import "GRcyRifxy_UZ.h"
+#import "MJRefresh.h"
+
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "LSTPopView.h"
+#import <Photos/Photos.h>
+#import "IQKeyboardManager.h"
+///当列表为空时，显示的默认图片
+#import "UIScrollView+EmptyDataSet.h"
+
+//支付宝
+#import <AlipaySDK/AlipaySDK.h>
+#import <YYKit/YYKit.h>
+//高德地图
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
+// 引入 JPush 功能所需头文件
+#import "JPUSHService.h"
+#import <UserNotifications/UserNotifications.h>
+
+
+#import "HNWQdoe_hView.h"
+
+//扩展类
+#import "WQPzjgy_y.h"
+#import "TIRewvr_Fzo.h"
+#import "HBLMmhwsTr_Le.h"
+#import "JSEbvvNan_H.h"
+#import "XInwqNlro_A.h"
+#import "TReoce_Kc.h"
+#import "JGKSt_R.h"
+#import "GERHkaOypdm_Po.h"
+#import "ZSUNnxxSl_xFR.h"
+#import "AOd_F.h"
+#import "BCrpfLlc_wWI.h"
+#import "MMKUltq_T.h"
+#import "VEEfkx_0.h"
+#import "NPYCly_J.h"
+#import "ZSMfGyqfu_bt.h"
+#import "ATHf_9.h"
+
+
+#import "AppDelegate.h"
+#import <WebKit/WebKit.h>
+//导航栏拦截
+#import "WBVxn_I3.h"
+//日期选择
+#import "PDdf_9View.h"
+//导航栏
+#import "XPRootNavigationController.h"
+//提示
+#import "ZIONf_d.h"
+//时间选择
+#import "DEig_IZView.h"
+//自定义地址选择
+#import "ZZCEkpLfibp_WvjView.h"
+//
+#import "UROPv_K44.h"
+
+//父类
+#import "LXZtjte_qController.h"
+//首页
+#import "UBxhwf_PController.h"
+//版本更新
+#import "EYrxYlf_LWView.h"
+//卡包
+#import "XVGDvhh_kiController.h"
+//收益
+#import "SGfGjysn_zV9Controller.h"
+//我的
+#import "JLxcjiLdqwi_AController.h"
+//登陆
+#import "PXFrJw_QnIController.h"
+//协议
+#import "LGRhv_bFKController.h"
+//注册
+#import "LPqbxQffx_sI8Controller.h"
+//人脸识别
+#import "TSQTyHmvd_cKController.h"
+#import "EDlgPhy_rTController.h"
+#import "STGImzfDle_eController.h"
+//结算卡绑定
+#import "DCht_SXController.h"
+//查看权益，收益规则
+#import "EQDbtKp_WVkController.h"
+#pragma 在线收款
+#import "KFszPp_mxXController.h"
+//交易状态
+#import "BEwdca_WView.h"
+//刷卡通道详情
+#import "UUWbfcGiigo_K1Controller.h"
+//选择刷卡通道
+#import "XDZnhFiik_abController.h"
+//支付确认
+#import "LExgql_UqController.h"
+
+#pragma 余额还款
+#import "ZDObr_eController.h"
+//制定计划
+#import "VCvSoj_RqController.h"
+//计划详情
+#import "ZPXXxocm_CController.h"
+//历史记录
+#import "HTTuctg_1GCController.h"
+//修改信息
+#import "VPGMomkiIc_hTfController.h"
+#import "DHSDpnz_x3.h"
+#pragma 会员中心
+#import "ANpdQuz_3fController.h"
+
+#pragma 使用帮助
+#import "PXl_3jController.h"
+#pragma 消息中心
+#import "EIjkdKnerl_vowController.h"
+#import "XPCupuzDxlbf_JController.h"
+#pragma 卡包
+//添加信用卡
+#import "VJFwoMliyr_pLqController.h"
+//修改储蓄卡信息
+#import "DZHKj_FController.h"
+
+#import "GAIkn_vController.h"
+
+#import "QJn_cController.h"
+//提现
+#import "PXwiusNay_pVController.h"
+#pragma 我的
+//设置
+#import "LXmzDnez_cController.h"
+//邀请好友
+#import "GTRMuq_ZController.h"
+//客服中心
+#import "VFBTtRyb_7lController.h"
+//直推间推 团队
+#import "OTJz_5lController.h"
+//素材管理
+#import "OWGl_MQController.h"
+
+#pragma 助力还款
+#import "UYRYeYrwuz_2Controller.h"
+#import "RNtycrQl_HUController.h"
+
+
+
+
+
+#pragma 商城
+
+#import "QCNCdhfhUq_0Controller.h"
+#import "WKEXrwLzxn_ImController.h"
+
+#import "GOu_7NKController.h"
+#import "BUtg_5Controller.h"
+#import "SPEVbfu_2yController.h"
+#import "ULJZrxdd_ECell.h"
+#import "BCiynw_PIController.h"
+#import "MCUaer_D8Controller.h"
+#import "RFc_RController.h"
+
+
+#endif /* PrefixHeader_pch */

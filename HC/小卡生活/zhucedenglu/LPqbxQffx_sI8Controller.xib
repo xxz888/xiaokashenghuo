@@ -242,13 +242,13 @@
     </objects>
     <resources>
         <image name="modestIndiscretionEntitle" width="24" height="24"/>
-        <image name="ventilateGrownupForever" width="24" height="24"/>
-        <image name="rifeJug" width="24" height="24"/>
-        <image name="offkeyTransshipSapient" width="737" height="737"/>
         <image name="nihilismSlur" width="24" height="24"/>
-        <image name="worksLossCoordinate" width="48" height="48"/>
+        <image name="offkeyTransshipSapient" width="737" height="737"/>
+        <image name="rifeJug" width="24" height="24"/>
         <image name="saplingMankind" width="48" height="48"/>
         <image name="singeGallowsSeptember" width="24" height="24"/>
+        <image name="ventilateGrownupForever" width="24" height="24"/>
+        <image name="worksLossCoordinate" width="48" height="48"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

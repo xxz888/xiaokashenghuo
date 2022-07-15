@@ -148,7 +148,6 @@
     }];
     [self.codeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
 
-
         make.centerY.equalTo(self.codeView);
         make.right.offset(-view_jj);
     }];
@@ -216,6 +215,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.codeBtn.hidden = YES;
     [self dangleExcitable];
     [self timetableColonizeCapitalistRavine];
 }
@@ -364,8 +364,10 @@
     
     if (self.segmentBtn1 == selectBtn) {
         [self timetableColonizeCapitalistRavine];
+        self.codeBtn.hidden = YES;
     }
     else{
+        self.codeBtn.hidden = NO;
         self.loginType = NO;
         self.segmentBtn2.titleLabel.font = [UIFont getUIFontSize:18 IsBold:YES];
         self.segmentLine2.backgroundColor = SegmentBtn_COLOR;
@@ -444,7 +446,7 @@
     [params setValue:phone forKey:@"phone"];
     [params setValue:@"0" forKey:@"type"];
     [params setValue:brandId forKey:@"brandId"];
-    [self NetWorkingPostWithURL:self hiddenHUD:NO url:@"/api/notice/pass/sms/send" Params:params success:^(id  _Nonnull responseObject) {
+    [self NetWorkingPostWithURL:self hiddenHUD:NO url:@"/api/notice/pass/dm/sms/send" Params:params success:^(id  _Nonnull responseObject) {
         if([responseObject[@"code"] intValue] == 0){
             [weakSelf.forgetBtn setHidden:NO];
             

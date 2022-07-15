@@ -14,6 +14,7 @@
                 <outlet property="agreementLeftlLab" destination="zPa-Qc-5nO" id="b0b-gu-Njl"/>
                 <outlet property="agreementRightLab" destination="9LM-4o-zda" id="LB4-7S-AtK"/>
                 <outlet property="agreementView" destination="vdi-9a-P8K" id="LVU-ZV-uQE"/>
+                <outlet property="codeBtn" destination="95m-Mo-Uw4" id="tox-4C-t3X"/>
                 <outlet property="codeImageView" destination="PJC-2W-pOy" id="dyV-c4-RyW"/>
                 <outlet property="codeLineView" destination="7fa-Yz-XWT" id="C5Y-Iy-enK"/>
                 <outlet property="codeTextField" destination="ih9-4d-JyC" id="5fj-eZ-kUT"/>
@@ -110,6 +111,15 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95m-Mo-Uw4">
+                            <rect key="frame" x="272" y="12" width="29" height="14"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=""/>
+                            <connections>
+                                <action selector="getCodeAction:" destination="-1" eventType="touchUpInside" id="f8a-cN-G82"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>

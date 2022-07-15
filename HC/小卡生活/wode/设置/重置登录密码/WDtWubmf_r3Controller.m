@@ -256,7 +256,9 @@
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     [params setValue:phone forKey:@"phone"];
     [params setValue:@"0" forKey:@"type"];
-    [self NetWorkingPostWithURL:self hiddenHUD:NO url:@"/api/notice/pass/sms/send" Params:params success:^(id  _Nonnull responseObject) {
+    [params setValue:brandId forKey:@"brandId"];
+
+    [self NetWorkingPostWithURL:self hiddenHUD:NO url:@"/api/notice/pass/dm/sms/send" Params:params success:^(id  _Nonnull responseObject) {
         if([responseObject[@"code"] intValue] == 0){
             
             [weakSelf everyoneIncredulityPredict];

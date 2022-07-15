@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "honestyParallel.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "gangFarther@2x.png",
+      "filename" : "bg_plan_img.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "notionSpongeTantalize@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

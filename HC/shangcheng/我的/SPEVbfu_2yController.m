@@ -73,7 +73,7 @@
     
     
     NSDictionary *UserData = [self loadUserData];
-    if ([UserData allKeys].count > 0 && ![UserData[@"username"] isEqualToString:@"13383773800"] ) {
+    if ([UserData allKeys].count > 0 && ![UserData[@"username"] isEqualToString:@"13383773801"] ) {
         IOZJk_9Controller *tabber = [IOZJk_9Controller new];
         
         AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];

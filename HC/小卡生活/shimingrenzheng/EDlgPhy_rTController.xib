@@ -190,8 +190,13 @@
                             <buttonConfiguration key="configuration" style="plain" title="人脸认证">
                                 <backgroundConfiguration key="background" image="balloonOstentatious"/>
                                 <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
-                                <color key="baseForegroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="finishAction:" destination="-1" eventType="touchUpInside" id="gWZ-wj-Df5"/>
                             </connections>
@@ -206,13 +211,13 @@
         </view>
     </objects>
     <resources>
-        <image name="designationBasinFlexible" width="382.5" height="166.5"/>
         <image name="aphorismEmbellishmentCommodity" width="162" height="139.5"/>
-        <image name="vehementReductionRobust" width="162" height="139.5"/>
-        <image name="observableClenchClientele" width="19" height="19"/>
-        <image name="nightAvailabilityLaziness" width="19" height="19"/>
         <image name="balloonOstentatious" width="382.5" height="166.5"/>
+        <image name="designationBasinFlexible" width="382.5" height="166.5"/>
+        <image name="nightAvailabilityLaziness" width="19" height="19"/>
         <image name="nihilismSlur" width="24" height="24"/>
+        <image name="observableClenchClientele" width="19" height="19"/>
+        <image name="vehementReductionRobust" width="162" height="139.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

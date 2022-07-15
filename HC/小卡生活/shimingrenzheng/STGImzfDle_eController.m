@@ -489,6 +489,8 @@
         _finishBtn = [UIButton new];
         [_finishBtn setBackgroundImage:[UIImage imageNamed:@"balloonOstentatious"] forState:UIControlStateNormal];
         [_finishBtn setTitle:@"开始检测" forState:UIControlStateNormal];
+        _finishBtn.layer.masksToBounds = YES;
+        _finishBtn.layer.cornerRadius = 8;
         [_finishBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _finishBtn.titleLabel.font = [UIFont systemFontOfSize:18];
         [_finishBtn addTarget:self action:@selector(getRLSBaction) forControlEvents:UIControlEventTouchUpInside];

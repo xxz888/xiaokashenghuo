@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046BAA6228825DAB0035D25D /* LivenessBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046BAA5F28825DAB0035D25D /* LivenessBundle.bundle */; };
+		046BAA6328825DAB0035D25D /* liveness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046BAA6028825DAB0035D25D /* liveness.framework */; };
+		046BAA6428825DAB0035D25D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046BAA6128825DAB0035D25D /* opencv2.framework */; };
 		2D169B4D276198AF0058A02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B4C276198AF0058A02B /* AppDelegate.m */; };
 		2D169B53276198AF0058A02B /* ETZo_MController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B52276198AF0058A02B /* ETZo_MController.m */; };
 		2D169B56276198AF0058A02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D169B54276198AF0058A02B /* Main.storyboard */; };
@@ -271,9 +274,6 @@
 		2D9E3ABF27929A96004A3D44 /* DKAYfYli_aView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9E3ABE27929A96004A3D44 /* DKAYfYli_aView.m */; };
 		2D9E3AC427953498004A3D44 /* NYLk_DfTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9E3AC327953498004A3D44 /* NYLk_DfTView.m */; };
 		2D9E3AC6279534A5004A3D44 /* NYLk_DfTView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9E3AC5279534A5004A3D44 /* NYLk_DfTView.xib */; };
-		2DB886282782F24D00EE9DFB /* Beverage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DB886252782F24D00EE9DFB /* Beverage.bundle */; };
-		2DB886292782F24D00EE9DFB /* liveness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB886262782F24D00EE9DFB /* liveness.framework */; };
-		2DB8862A2782F24D00EE9DFB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB886272782F24D00EE9DFB /* opencv2.framework */; };
 		2DC01D7427755FE200D4FBEA /* YZBJyrUhd_EController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC01D7327755FE200D4FBEA /* YZBJyrUhd_EController.m */; };
 		2DC01D782775608A00D4FBEA /* PQrTrasf_XCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC01D762775608A00D4FBEA /* PQrTrasf_XCCell.m */; };
 		2DC01D792775608A00D4FBEA /* PQrTrasf_XCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC01D772775608A00D4FBEA /* PQrTrasf_XCCell.xib */; };
@@ -320,6 +320,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046BAA5F28825DAB0035D25D /* LivenessBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LivenessBundle.bundle; sourceTree = "<group>"; };
+		046BAA6028825DAB0035D25D /* liveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = liveness.framework; sourceTree = "<group>"; };
+		046BAA6128825DAB0035D25D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		2D169B48276198AF0058A02B /* HC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D169B4B276198AF0058A02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D169B4C276198AF0058A02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -773,9 +776,6 @@
 		2D9E3AC227953498004A3D44 /* NYLk_DfTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYLk_DfTView.h; sourceTree = "<group>"; };
 		2D9E3AC327953498004A3D44 /* NYLk_DfTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYLk_DfTView.m; sourceTree = "<group>"; };
 		2D9E3AC5279534A5004A3D44 /* NYLk_DfTView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYLk_DfTView.xib; sourceTree = "<group>"; };
-		2DB886252782F24D00EE9DFB /* Beverage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Beverage.bundle; sourceTree = "<group>"; };
-		2DB886262782F24D00EE9DFB /* liveness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = liveness.framework; sourceTree = "<group>"; };
-		2DB886272782F24D00EE9DFB /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		2DC01D7227755FE200D4FBEA /* YZBJyrUhd_EController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBJyrUhd_EController.h; sourceTree = "<group>"; };
 		2DC01D7327755FE200D4FBEA /* YZBJyrUhd_EController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBJyrUhd_EController.m; sourceTree = "<group>"; };
 		2DC01D752775608A00D4FBEA /* PQrTrasf_XCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQrTrasf_XCCell.h; sourceTree = "<group>"; };
@@ -819,6 +819,7 @@
 			files = (
 				2D5943E7278FFF8B00652629 /* AVFoundation.framework in Frameworks */,
 				2D5943E5278FDADA00652629 /* UserNotifications.framework in Frameworks */,
+				046BAA6328825DAB0035D25D /* liveness.framework in Frameworks */,
 				2DC01D952775D0BA00D4FBEA /* CoreMotion.framework in Frameworks */,
 				2DC01D942775D0B200D4FBEA /* CFNetwork.framework in Frameworks */,
 				2DC01D922775D0AA00D4FBEA /* Foundation.framework in Frameworks */,
@@ -826,12 +827,11 @@
 				2DC01D8E2775D09B00D4FBEA /* CoreGraphics.framework in Frameworks */,
 				2DC01D8C2775D09000D4FBEA /* CoreText.framework in Frameworks */,
 				2DC01D8A2775D07B00D4FBEA /* QuartzCore.framework in Frameworks */,
+				046BAA6428825DAB0035D25D /* opencv2.framework in Frameworks */,
 				2DC01D882775D07200D4FBEA /* CoreTelephony.framework in Frameworks */,
-				2DB8862A2782F24D00EE9DFB /* opencv2.framework in Frameworks */,
 				2DC01D872775D06800D4FBEA /* SystemConfiguration.framework in Frameworks */,
 				2DC01D852775D06000D4FBEA /* libz.tbd in Frameworks */,
 				2DC01D842775D05600D4FBEA /* libc++.tbd in Frameworks */,
-				2DB886292782F24D00EE9DFB /* liveness.framework in Frameworks */,
 				30D59C858ADB20172B182B3F /* libPods-HC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -853,6 +853,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046BAA5E28825DAB0035D25D /* liveness */ = {
+			isa = PBXGroup;
+			children = (
+				046BAA5F28825DAB0035D25D /* LivenessBundle.bundle */,
+				046BAA6028825DAB0035D25D /* liveness.framework */,
+				046BAA6128825DAB0035D25D /* opencv2.framework */,
+			);
+			path = liveness;
+			sourceTree = "<group>";
+		};
 		0AD3479BD4B858C237BEE6D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -967,9 +977,9 @@
 		2D169B8A2761A0750058A02B /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				046BAA5E28825DAB0035D25D /* liveness */,
 				2D9E3ABC27929A96004A3D44 /* LabelScrollView */,
 				2D93FEE52786E621004B185F /* YCMenuView */,
-				2DB886242782F24D00EE9DFB /* liveness */,
 				2D75E3112767220E002085CB /* RPTaggedNavView */,
 				2D169B8B2761A0750058A02B /* UIDevice+YL */,
 				2D169B8E2761A0750058A02B /* LDCalenderView */,
@@ -2221,16 +2231,6 @@
 			path = "平台消息提示";
 			sourceTree = "<group>";
 		};
-		2DB886242782F24D00EE9DFB /* liveness */ = {
-			isa = PBXGroup;
-			children = (
-				2DB886252782F24D00EE9DFB /* Beverage.bundle */,
-				2DB886262782F24D00EE9DFB /* liveness.framework */,
-				2DB886272782F24D00EE9DFB /* opencv2.framework */,
-			);
-			path = liveness;
-			sourceTree = "<group>";
-		};
 		2DC01D7127755CC000D4FBEA /* 我的收藏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2382,6 +2382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046BAA6228825DAB0035D25D /* LivenessBundle.bundle in Resources */,
 				2D8B4D31277C292A0006DAE9 /* GLdtpBwz_vbKCell.xib in Resources */,
 				2D8B4D0C277C292A0006DAE9 /* BKYt_IHlCell.xib in Resources */,
 				2D8B4D40277C292A0006DAE9 /* ULTTqJuku_qCell.xib in Resources */,
@@ -2436,7 +2437,6 @@
 				2D8B4D38277C292A0006DAE9 /* BSbqcLvls_npEController.xib in Resources */,
 				2D8B4D67277C292A0006DAE9 /* XDHEdqz_T2View.xib in Resources */,
 				2D7EC5C6278EBFBF00554E42 /* DVGVatz_PCell.xib in Resources */,
-				2DB886282782F24D00EE9DFB /* Beverage.bundle in Resources */,
 				2DC01D7F2775738300D4FBEA /* RAHAzn_7hTCell.xib in Resources */,
 				2D8B4D4A277C292A0006DAE9 /* QGCuxvq_dbCell.xib in Resources */,
 				2D8B4D04277C292A0006DAE9 /* EDlgPhy_rTController.xib in Resources */,

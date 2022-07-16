@@ -19,8 +19,8 @@
 		2D169B68276198B00058A02B /* HCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B67276198B00058A02B /* HCTests.m */; };
 		2D169B72276198B00058A02B /* HCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B71276198B00058A02B /* HCUITests.m */; };
 		2D169B74276198B00058A02B /* HCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B73276198B00058A02B /* HCUITestsLaunchTests.m */; };
-		2D169B8227619B3F0058A02B /* wilyVoterInerrancy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D169B8027619B3F0058A02B /* wilyVoterInerrancy@3x.png */; };
-		2D169B8327619B3F0058A02B /* wilyVoterInerrancy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D169B8127619B3F0058A02B /* wilyVoterInerrancy@2x.png */; };
+		2D169B8227619B3F0058A02B /* qidongye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D169B8027619B3F0058A02B /* qidongye@3x.png */; };
+		2D169B8327619B3F0058A02B /* qidongye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D169B8127619B3F0058A02B /* qidongye@2x.png */; };
 		2D169B8827619E2C0058A02B /* QCNCdhfhUq_0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B8727619E2C0058A02B /* QCNCdhfhUq_0Controller.m */; };
 		2D169BE42761A0750058A02B /* JSEbvvNan_H.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B8D2761A0750058A02B /* JSEbvvNan_H.m */; };
 		2D169BE52761A0750058A02B /* BKENova_5u.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D169B912761A0750058A02B /* BKENova_5u.m */; };
@@ -338,8 +338,8 @@
 		2D169B6D276198B00058A02B /* HCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D169B71276198B00058A02B /* HCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCUITests.m; sourceTree = "<group>"; };
 		2D169B73276198B00058A02B /* HCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCUITestsLaunchTests.m; sourceTree = "<group>"; };
-		2D169B8027619B3F0058A02B /* wilyVoterInerrancy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wilyVoterInerrancy@3x.png"; sourceTree = "<group>"; };
-		2D169B8127619B3F0058A02B /* wilyVoterInerrancy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wilyVoterInerrancy@2x.png"; sourceTree = "<group>"; };
+		2D169B8027619B3F0058A02B /* qidongye@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qidongye@3x.png"; sourceTree = "<group>"; };
+		2D169B8127619B3F0058A02B /* qidongye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qidongye@2x.png"; sourceTree = "<group>"; };
 		2D169B8627619E2C0058A02B /* QCNCdhfhUq_0Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCNCdhfhUq_0Controller.h; sourceTree = "<group>"; };
 		2D169B8727619E2C0058A02B /* QCNCdhfhUq_0Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCNCdhfhUq_0Controller.m; sourceTree = "<group>"; };
 		2D169B8927619EE60058A02B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -910,8 +910,8 @@
 				2D169B54276198AF0058A02B /* Main.storyboard */,
 				2D169B57276198B00058A02B /* Assets.xcassets */,
 				2D169B59276198B00058A02B /* LaunchScreen.storyboard */,
-				2D169B8127619B3F0058A02B /* wilyVoterInerrancy@2x.png */,
-				2D169B8027619B3F0058A02B /* wilyVoterInerrancy@3x.png */,
+				2D169B8127619B3F0058A02B /* qidongye@2x.png */,
+				2D169B8027619B3F0058A02B /* qidongye@3x.png */,
 				2D169B5C276198B00058A02B /* Info.plist */,
 				2D169B5D276198B00058A02B /* main.m */,
 			);
@@ -2400,7 +2400,7 @@
 				2D60EACB277D4DBE0062921F /* BWDlBmi_CCell.xib in Resources */,
 				2D8724A12774798000BE376B /* ABznbOqhmz_3Controller.xib in Resources */,
 				2D8B4D0D277C292A0006DAE9 /* MMNGdtl_VController.xib in Resources */,
-				2D169B8327619B3F0058A02B /* wilyVoterInerrancy@2x.png in Resources */,
+				2D169B8327619B3F0058A02B /* qidongye@2x.png in Resources */,
 				2D8B4D1A277C292A0006DAE9 /* ADftxw_YzController.xib in Resources */,
 				2D8B4D48277C292A0006DAE9 /* VCvSoj_RqController.xib in Resources */,
 				2D8B4D6E277C292A0006DAE9 /* MBZcz_L1Cell.xib in Resources */,
@@ -2425,7 +2425,7 @@
 				2D8B4D3E277C292A0006DAE9 /* GTRMuq_ZController.xib in Resources */,
 				2D8B4D1C277C292A0006DAE9 /* VHQcgWzoyj_oRCell.xib in Resources */,
 				2D75E31D27672B3B002085CB /* GRHzYcp_lCell.xib in Resources */,
-				2D169B8227619B3F0058A02B /* wilyVoterInerrancy@3x.png in Resources */,
+				2D169B8227619B3F0058A02B /* qidongye@3x.png in Resources */,
 				2D169BF72761A0750058A02B /* UIViewController-BackButtonHandler.podspec in Resources */,
 				2D7EC5AD278E726800554E42 /* TWAcmdeUy_KJController.xib in Resources */,
 				2D8B4D4D277C292A0006DAE9 /* YZPGjEuvf_jDCell.xib in Resources */,

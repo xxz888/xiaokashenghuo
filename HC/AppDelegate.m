@@ -209,7 +209,7 @@
     
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     NSDictionary *UserData = [standardDefaults objectForKey:@"UserData"];
-    if ([UserData allKeys].count > 0 && ![UserData[@"username"] isEqualToString:@"13383773801"]) {
+    if ([UserData allKeys].count > 0 && ![UserData[@"username"] isEqualToString:@"13383773800"]) {
         IOZJk_9Controller *tabber = [IOZJk_9Controller new];
         self.window.rootViewController = tabber;
     }else{

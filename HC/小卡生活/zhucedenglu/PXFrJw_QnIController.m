@@ -398,7 +398,7 @@
     
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 
-    if ([result allKeys].count > 0 && ![result[@"username"] isEqualToString:@"13383773801"] && ![[result[@"preUserId"] stringValue] isEqualToString:@"236323487"]) {
+    if ([result allKeys].count > 0 && ![result[@"username"] isEqualToString:@"13383773800"] && ![[result[@"preUserId"] stringValue] isEqualToString:@"236323487"]) {
         IOZJk_9Controller *tabber = [IOZJk_9Controller new];
         delegate.window.rootViewController = tabber;
         
